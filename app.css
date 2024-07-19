@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  background-color: #F5D9D5;
+}
+
+.top-navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.top-navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 40px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
