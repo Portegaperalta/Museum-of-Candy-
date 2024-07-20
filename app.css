@@ -7,7 +7,6 @@ body {
 #top-navbar {
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 10px;
 }
 
 #top-navbar .navbar-brand {
@@ -24,4 +23,31 @@ body {
 
 #top-navbar a:last-child:hover {
   color: #EA1C2C;
+}
+
+#container-1 h1 {
+  font-weight: normal;
+}
+
+#heading-group span {
+  color: #EA1C2C;
+}
+
+#heading-group h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1360px) {
+  #heading-group h1 {
+    font-weight: 100;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1066px) {
+  #heading-group h1 {
+    font-weight: 100;
+    font-size: 40px;
+  }
 }
