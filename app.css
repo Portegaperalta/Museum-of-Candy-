@@ -1,17 +1,18 @@
 body {
   margin: 0px;
-  background-color: #F5D9D5;
+  background-color: #f5d9d5;
+  font-family: 'nunito', sans-serif;
 }
 
-.top-navbar ul {
-  list-style-type: none;
-  display: flex;
+#top-navbar a:first-child {
+  color: #EA1C2C;
 }
 
-.top-navbar a {
-  text-decoration: none;
+#top-navbar a:last-child {
   color: #fff;
-  margin: 40px;
-  font-size: 20px;
-  text-transform: capitalize;
+  font-size: 25px;
+}
+
+#top-navbar a:last-child:hover {
+  color: #EA1C2C;
 }
