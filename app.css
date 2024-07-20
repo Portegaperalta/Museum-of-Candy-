@@ -4,24 +4,24 @@ body {
   font-family: 'nunito', sans-serif;
 }
 
-#top-navbar {
+#mainNavbar {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-#top-navbar .navbar-brand {
+#mainNavbar .navbar-brand {
   color: #EA1C2C;
   font-size: 1.5rem;
   font-weight: 100;
 }
 
-#top-navbar a:last-child {
+#mainNavbar a:last-child {
   color: #fff;
   font-size: 25px;
   font-weight: 100;
 }
 
-#top-navbar a:last-child:hover {
+#mainNavbar a:last-child:hover {
   color: #EA1C2C;
 }
 
@@ -65,6 +65,21 @@ h2 {
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
+}
+
+#container-4 {
+  margin-top: 100px;
+}
+
+#container-4-text p {
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.navbar.scrolled {
+  background-color: rgb(222, 192, 222);
 }
 
 @media (max-width: 1360px) {
