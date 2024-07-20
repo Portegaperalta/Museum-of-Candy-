@@ -4,13 +4,22 @@ body {
   font-family: 'nunito', sans-serif;
 }
 
-#top-navbar a:first-child {
+#top-navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+#top-navbar .navbar-brand {
   color: #EA1C2C;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
 
 #top-navbar a:last-child {
   color: #fff;
   font-size: 25px;
+  font-weight: 100;
 }
 
 #top-navbar a:last-child:hover {
